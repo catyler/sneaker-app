@@ -1,6 +1,48 @@
 section {
   background-color: red;
 }
-p{
+#header {
+  font-size: 7em;
+  font-family: sans-serif;
   color: white;
+}
+p{
+  font-family:sans-serif;
+  color: white;
+  font-size: 14px;
+}
+.topics{
+  background-color: white
+}
+h2{
+  color: brown;
+  font-family: sans-serif;
+  font-size: 4em;
+}
+.content{
+  color: tan;
+  font-family: sans-serif;
+}
+#last{
+  background-color: white;
+  color: brown;
+  font-family: sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+}
+.sneakertitles{
+  color: white;
+  font-family: sans-serif;
+  text-decoration: underline;
+  font-size: 2em;
+}
+#price{
+  color: purple;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+#footer{
+  color: purple;
+  font-family: sans-serif;
+  text-decoration: underline;
 }
