@@ -1,5 +1,6 @@
 body{
   font-family: sans-serif;
+  color: white;
 }
 /*********HEADER SECTION************/
 ul li{
@@ -27,9 +28,13 @@ ul li{
   border-top: 0;
   margin-top:0;
 }
-p{
+#section-one{
   color: white;
   font-size: 14px;
+  border-top: dashed brown 1px;
+  border-bottom: dashed brown 1px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /***********SECTION TWO********************/
 section{
