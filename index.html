@@ -2,42 +2,46 @@
 <html>
   <head>
     <title>Sneakers</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://use.fontawesome.com/d442fa5e6f.js"></script>
     <link rel="stylesheet" href="styles.css">
   </head>
 <!--------------------HEADING SECTION---------------------->
   <body>
     <header>
-      <img src="./images/logo.jpg">
+      <img id="logo" src="./images/logo.jpg" alt="shoe logo.">
+      <nav id="internal-shopping">
       <ul>
-        <li>men</li>
-        <li>women</li>
-        <li>boys</li>
-        <li>customize</li>
+        <li>MEN</li>
+        <li>WOMEN</li>
+        <li>BOYS</li>
+        <li>CUSTOMIZE</li>
       </ul>
+    </nav>
+    <nav id="internal">
       <ul>
         <li>Help</li>
         <li>My Account</li>
-        <li>Shopping Cart</li>
+        <li><i class="fa fa-shopping-cart" aria-hidden="true"></i>Shopping Cart</li>
       </ul>
+    </nav>
     </header>
     <!-------------------FIRST SECTION------------------------>
     <section class="one">
-      <p id="Back">back to all shoes</p>
-      <img src="./images/shoe1.png">
-    <div>
-      <p class="header">Quick Sneakers</p>
-      <p class="subtitle">Spring/Summer 2017</p>
+      <a class="Back">back to all shoes</a>
+      <img class="Back" id="black-shoe" src="./images/shoe1.png" alt="black canvas hightop shoe.">
+    <div class="feature">
+      <a class="header">Quick Sneakers</a>
+      <a class="subtitle">Spring/Summer 2017</a>
     </div>
       <p id="section-one">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </p>
-      <div>
-      <p id="p2">
+      <div class="purchase">
+      <a id="p2">
         $120.00
-      </p>
-      <p id="buynow">
-        Buy Now!
-      </p>
+      </a>
+      <button>Buy Now!</button>
     </div>
     </section>
 <!-------------------SECOND SECTION------------------>
@@ -72,44 +76,33 @@
 <!-------------------RECOMMENDATION SECTION--------------------->
       <section class="one">
         <p id="last">Shop Reccomended Shoes</p>
-      <img src="./images/shoe2.png">
       <div class="sneakertitles">
+        <img class="image"src="./images/shoe2.png" alt="blue and orange shoe.">
         <h3>Funny Sneakers</h3>
+        <a class="price">
+          $120.00</a>
       </div>
-      <div>
-        <p id="price">
-          $120.00
-        </p>
-      </div>
-      <img src="./images/shoe3.png">
       <div class="sneakertitles">
+        <img class="image"src="./images/shoe3.png" alt="red and black sneaker.">
         <h3>Funny Sneakers</h3>
+        <a class="price">
+          $120.00</a>
       </div>
-      <div>
-        <p id="price">
-          $120.00
-        </p>
-      </div>
-      <img src="./images/shoe4.png">
       <div class="sneakertitles">
+        <img class="image"src="./images/shoe4.png" alt="navy and blue sneaker.">
         <h3>Funny Sneakers</h3>
-      </div>
-      <div>
-        <p id="price">
-          $120.00
-        </p>
+        <a class="price">
+          $120.00</a>
       </div>
     </section>
   </body>
-<!------------------------FOOTER-------------------->
+<!-----------------------------FOOTER------------------------>
   <footer>
-    <img src="./images/logo.jpg">
-    <p id="footer">
-      Shipping
-    </p>
-    <p id="footer">
-      Terms & Conditions
-    </p>
-    &copy;Copyright 2017. Sneaker Shop, LLC.
+    <img src="./images/logo.jpg" alt="shoe logo.">
+      <ul>
+        <li>Shipping</li>
+        <li>Terms & Conditions</li>
+        <li id="copywrite"> &copy;Copyright 2017. Sneaker Shop, LLC.</li>
+      </ul>
   </footer>
   </html>
