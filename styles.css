@@ -1,5 +1,5 @@
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: white;
 }
 /*********HEADER SECTION************/
@@ -17,29 +17,21 @@ ul li{
 ul li:hover{
   color: #ee0979;
   cursor: pointer;
+  text-decoration: underline;
 }
 #internal-shopping{
   float: left;
   width: 40%;
 }
 #internal{
+  text-align: right;
   float: right;
   width: 50%;
-}
-button{
-  background-color: white;
-  border-radius: 5px;
-  border-style: outset;
-  padding: 10px 10px;
-  font-size: 20px;
-}
-button:hover{
-  cursor: pointer;
 }
 /***********SECTION ONE**************/
 .one {
   clear: both;
-  min-height: 800px;
+  min-height: 700px;
   background: linear-gradient(to right, #ee0979 , #ff6a00);
 }
 .Back{
@@ -47,9 +39,16 @@ button:hover{
   width: 50%;
   padding: 20px;
   margin: 5px 5px;
+  margin-left: 65px;
 }
 #black-shoe{
   clear: left;
+  height: 400px;
+  width: 750px;
+  margin-left: 70px;
+}
+.feature{
+  text-align: center;
 }
 .header{
   font-size: 50px;
@@ -64,81 +63,186 @@ button:hover{
   float:right;
   width: 40%;
   font-size: 25px;
-  color: brown;
+  color: purple;
   padding-top: 0;
   border-top: 0;
   margin-top:0;
 }
-#section-one{
+.section-one{
   float: right;
   width: 40%;
   color: white;
   font-size: 20px;
-  border-top: dashed brown 1px;
-  border-bottom: dashed brown 1px;
+  border-top: dashed purple 1px;
+  border-bottom: dashed purple 1px;
   padding-top: 30px;
   padding-bottom: 30px;
   margin-right: 30px;
+  text-align: left;
+  line-height: 50px;
+}
+#reviews{
+  color: purple;
+  text-decoration: underline;
+  font-size: 20px;
+  float:right;
+  text-align: right;
 }
 .purchase{
-  clear:right;
+  float: right;
+  clear: right;
+  width: 40%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-right: 30px;
   text-align: center;
+  font-size: 50px;
+}
+.dollars{
+  font-size:50px;
+}
+.cents{
+  font-size: 30px;
+  vertical-align: top;
+}
+#purchase-button{
+  background-color: white;
+  border-radius: 5px;
+  border-style: outset;
+  padding: 20px;
+  font-size: 20px;
+  color: #ff6a00;
+  margin-right:30px;
+  text-align: center;
+  width: 20%;
+}
+#purchase-button:hover{
+  cursor: pointer;
 }
 /***********SECTION TWO********************/
 section{
   background-color: white;
   min-height: 300px;
 }
+.details{
+  color: #ff6a00;
+  float:left;
+  margin-left: 20%;
+  font-size: 25px;
+  margin-right: 3%;
+  padding: 0;
+}
+.details:hover{
+  text-decoration: underline;
+  color: #ee0979;
+  cursor: pointer;
+}
+#size-fit{
+  margin-left: 2%;
+}
+#product-reviews{
+  font-size: 20px;
+  text-align: right;
+  margin-right: 20%;
+}
 h2{
-  color: brown;
-  font-size: 50px;
+  clear:both;
+  color: black;
+  font-size: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#topic-one{
+  border-top: #ff6a00 1px solid;
+  padding-top: 50px;
 }
 .content{
   padding-bottom: 2px;
   margin-bottom: 2px;
   border-bottom: 1px;
-  color: tan;
+  color: gray;
   font-size: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 #topic{
-  color: brown;
+  color: black;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 /*******************SECTION THREE******************/
 #last{
   background-color: #FECBCA;
-  color: brown;
-  font-size: 4em;
+  color: black;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
+  padding: 30px
 }
 .sneakertitles{
   color: white;
-  text-decoration: underline;
-  font-size: 20px;
+  font-size: 30px;
   float:left;
   margin-left: 10px;
   width: 32%;
+  text-align: center;
+  padding-top: 5px;
 }
 .image{
+  text-align: center;
   width: 70%;
   height: 70%;
+  padding: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
-.price{
+.three-header{
+  padding: 5px;
+  float:left;
+  margin-left: 20%;
+}
+#section-three-dollars{
+  font-size: 30px;
+}
+#section-three-cents{
+  font-size: 20px;
+}
+.three-subtitle{
+  clear:both;
+  font-size: 18px;
   color: purple;
-  text-decoration: underline;
+  float:left;
+  padding: 5px;
+  margin-left: 20%;
 }
 /*****************FOOTER*****************/
 footer li{
-  color: purple;
+  color: gray;
   text-decoration: underline;
   display: inline-block;
-  border-right: tan 1px solid;
+  border-right: gray 1px solid;
   padding-right: 20px;
   padding-left: 2px;
   margin-left: 5px;
 }
+.footer-shopping{
+  display: inline-block;
+  font-size: 12px;
+  border: none;
+  color: #ffa600;
+  text-decoration: none;
+}
+#footer-shopping-list{
+  float:left;
+  width: 50%;
+}
+.conditions{
+  float: right;
+  font-size: 12px;
+  width: 40%;
+}
 #copywrite{
-  color: tan;
+  color: gray;
   border-right: none;
   text-decoration: none;
 }
